@@ -1,1 +1,1 @@
-https://cd .\rsschool-cv\TheKuznecoff.github.io/rsschool-cv/cv
+# rsschool-cv
