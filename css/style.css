@@ -151,7 +151,7 @@ body {
 }
 /*-----------------------------------Main--------------------------------------------*/
 .main {
-   padding: 40px;
+   padding: 40px 40px 40px 71px;
    position: relative;
 }
 .main::after {
@@ -166,11 +166,11 @@ body {
    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 /*-----------------------------------Work--------------------------------------------*/
-.work {
+.section__work {
    position: relative;
-   margin-left: 31px;
+   margin-bottom: 30px;
 }
-.work__title {
+.section__title {
    position: relative;
    font-weight: 700;
    font-size: 20px;
@@ -179,15 +179,24 @@ body {
    color: #42489E;
    text-transform: uppercase;
    margin-left: 50px;
+   margin-bottom: 10px;
 }
-.work img{
+.section__img{
    position: absolute;
    padding: 6px;
    background: #42489E;;
    z-index: 10;
 }
-
-.work__text {
+.section__suptitle {
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 0.03em;
+   color: #323232;
+   margin-left: 50px;
+   margin-bottom: 5px;
+}
+.section__text {
    font-weight: 400;
    font-size: 13px;
    line-height: 150%;
@@ -197,6 +206,23 @@ body {
    margin-left: 50px;
 }
 /*-----------------------------------Training--------------------------------------------*/
-.training__img {
+.section__img--blue {
    background: #277FC3;
+}
+.section__title--blue {
+   color: #277FC3;
+}
+.section__text--link {
+   display: block;
+   margin-bottom: 20px;
+}
+.section__text--link:hover {
+  text-decoration: underline;
+}
+/*-----------------------------------Hobbies--------------------------------------------*/
+.section__img--lightblue {
+   background: #139ED9;
+}
+.section__title--lightblue {
+   color: #139ED9;
 }
