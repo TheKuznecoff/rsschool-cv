@@ -277,5 +277,5 @@ body {
    width: 140px;
 }
 .section-skills__item--git::before {
-   width: 150px;
+   width: 100px;
 }
