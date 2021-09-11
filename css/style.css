@@ -82,13 +82,14 @@ body {
    color: #000;
    background-color: #e5e5e5;
    font-family: "Poppins", sans-serif;
+   min-width: 1024px;
 }
 .wrapper {
    min-height: 100%;
    overflow: hidden;
 }
 .container {
-   max-width: 1024px;
+   width: 1024px;
    margin: 20px auto;
    background-color: #ffffff;
 }
@@ -230,7 +231,7 @@ body {
 }
 /*--------------------------------------------About--------------------------------------------*/
 .section-about {
-   margin-bottom: 83px;
+   margin-bottom: 40px;
 }
 .section__title--wite {
    color: #ffffff;
@@ -278,4 +279,64 @@ body {
 }
 .section-skills__item--git::before {
    width: 100px;
+}
+.section-skills__item--gulp {
+   width: 270px;
+}
+/*-----------------------------------------------Langugage-----------------------------------------*/
+.section-language {
+   margin-top: 40px;
+}
+
+/*-----------------------------------------------Section-Code-------------------------------------*/
+.section-code {
+   max-width: 600px;
+   position: relative;
+   top: 40px;
+   left: 30%;
+}
+.section-code__body {
+   background-color: #8ec6e6;
+}
+.section-code__title {
+   width: 162px;
+   position: relative;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 25px;
+   letter-spacing: 0.01em;
+   color: #04b2e7;
+   text-transform: uppercase;
+}
+.section__text--code {
+   margin: 0px;
+   padding: 20px;
+}
+/*-----------------------------------------------Footer-------------------------------------*/
+.footer {
+   padding: 0px 40px 0px 68px;
+}
+.footer-body {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.user-social--footer {
+   display: flex;
+   align-items: center;
+   padding: 10px 0px;
+}
+.user-social--footer li {
+   margin-right: 20px;
+}
+.footer-body__text {
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 15px;
+   letter-spacing: 0.01em;
+   color: black;
+   text-align: center;
+}
+
+@media (max-width: 1024px) {
 }
