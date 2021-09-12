@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=1120">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="shortcut icon" href="img/favicon.ico">
+   <title>CV</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="container">
+         <div class="columns">
+            <!--Left-column-->
+            <div class="left-column">
+               <header class="header">
+                  <div class="user">
+                     <div class="user__img">
+                        <img src="img/7.jpg" alt="7">
+                     </div>
+                     <!--User-->
+                     <div class="user-content">
+                        <h1 class="user-content__title"><span>Dmitryi</span> Kuznetsov</h1>
+                        <h2 class="user-content__suptitle">Junior Frontend Developer</h2>
+                        <ul class="user-social">
+                           <li class="user-social__item">
+                              <a class="user-social__link" href="https://t.me/thekuznecoff" target="blank">
+                                 <img src="img//telegram.svg" alt="telegram" width="20">
+                                 https://t.me/thekuznecoff
+                              </a>
+                           </li>
+                           <li class="user-social__item">
+                              <a class="user-social__link" href="https://github.com/TheKuznecoff" target="blank">
+                                 <img src="img/github.svg" alt="github" width="20">
+                                 https://github.com/TheKuznecoff
+                              </a>
+                           </li>
+                           <li class="user-social__item">
+                              <a class="user-social__link" href="tel:89370925101">
+                                 <img src="img/phone-call.svg" alt="phone-call" width="20">
+                                 +7-937-092-51-01
+                              </a>
+                           </li>
+                           <li class="user-social__item">
+                              <a class="user-social__link" href="mailto:thekuznecoff070@gmail.com">
+                                 <img src="img/gmail.svg" alt="gmail" width="20">
+                                 thekuznecoff070@gmail.com
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </header>
+               <!--Main-->
+               <section class="section-main">
+                  <div class="section__work">
+                     <img class="section__img" src="img/Group.svg" alt="Group" width="25">
+                     <h2 class="section__title">Work experience</h2>
+                     <h3 class="section__suptitle">Freelance</h3>
+                     <p class="section__text">There were a few simple orders on the freelancers' exchange; due to a
+                        little experience, it is difficult to find a suitable job.</p>
+                  </div>
+                  <!--Training-->
+                  <div class="section__training">
+                     <img class="section__img section__img--blue" src="img/training.svg" alt="training" width="25">
+                     <h2 class="section__title section__title--blue">Training</h2>
+                     <h3 class="section__suptitle">HTML and CSS</h3>
+                     <a class="section__text section__text--link" href="https://htmlacademy.ru"
+                        target="blank">https://htmlacademy.ru</a>
+                     <h3 class="section__suptitle">JavaScript</h3>
+                     <a class="section__text section__text--link" href="https://learn.javascript.ru"
+                        target="blank">https://learn.javascript.ru</a>
+                  </div>
+                  <!--Hobbies-->
+                  <div class="section__hobbies">
+                     <img class="section__img section__img--lightblue" src="img/hobbies.svg" alt="hobbies" width="25">
+                     <h2 class="section__title section__title--lightblue">HOBBIES AND INTERESTS</h2>
+                     <p class="section__text">Chatting with friends and family, watching TV (BBC Clic, news and
+                        documentaries), weekly soccer game, fishing regularly.Fast motorcycle riding.Watching YouTube
+                        channels from Front-end developers.<br>Training at rsschool.</p>
+                  </div>
+                  <!--Code-->
+                  <div class="section-code">
+                     <h2 class="section-code__title">CODE EXAMPLE</h2>
+                     <div class="section-code__body">
+                        <pre>
+                           <code class="section__text section__text--code">
+                              for (let anchor of anchors) {
+                                 anchor.addEventListener("click", function (event) {
+                                    event.preventDefault();
+                                    const blockID = anchor.getAttribute('href')
+                                    document.querySelector('' + blockID).scrollIntoView({
+                                       behavior: "smooth",
+                                       block: "start"
+                                    })
+                                 })
+                              }
+                           </code>
+                        </pre>
+                     </div>
+                  </div>
+               </section>
+            </div>
+            <!--Right-column-->
+            <div class="right-column">
+               <!--About-->
+               <section class="section-about">
+                  <h2 class="section__title section__title--wite">About me</h2>
+                  <p class="section__text section__text--wite">Hello, my name is Dmitry Kuznetsov, I am 31 years old.
+                     I am a beginner Front-end developer and want to get professional skills at RS school.
+                     My goal is to provide the best service on the market!
+                     I believe in myself and I will not give up until I become a professional developer!</p>
+               </section>
+               <!--Skills-->
+               <section class="section-skills">
+                  <h2 class="section__title section__title--wite">Pro skills</h2>
+                  <ul class="section-skills__list">
+                     <li class="section-skills__item">HTML / CSS</li>
+                     <li class="section-skills__item section-skills__item--js">JavaScript</li>
+                     <li class="section-skills__item section-skills__item--ph">Photoshop / Figma / Avocode</li>
+                     <li class="section-skills__item section-skills__item--git">GitHub</li>
+                     <li class="section-skills__item section-skills__item--gulp">Gulp / Saas / Less</li>
+                  </ul>
+               </section>
+               <!--Language-->
+               <section class="section-language">
+                  <h2 class="section__title section__title--wite">Langugage</h2>
+                  <p class="section__text section__text--wite">Russian - native speaker.</p>
+                  <p class="section__text section__text--wite">English - A1 (At the stage of learning English).</p>
+               </section>
+            </div>
+         </div>
+         <!--Footer-->
+         <footer class="footer">
+            <div class="footer-body">
+               <ul class="user-social user-social--footer">
+                  <li class="user-social__item">
+                     <a class="user-social__link" href="https://t.me/thekuznecoff" target="blank">
+                        <img src="img//telegram.svg" alt="telegram" width="30">
+                     </a>
+                  </li>
+                  <li class="user-social__item">
+                     <a class="footer-body__link" href="https://rs.school/js/" target="blank">
+                        <img src="img/rs_school_js.svg" alt="rs_school_js" width="70">
+                     </a>
+                  </li>
+                  <li class="user-social__item">
+                     <a class="footer-body__link" href="https://github.com/TheKuznecoff" target="blank">
+                        <img src="img/github-footer.svg" alt="github-footer" width="30">
+                     </a>
+                  </li>
+               </ul>
+               <p class="footer-body__text">Dmitryi Kuznetsov 2021</p>
+            </div>
+         </footer>
+      </div>
+   </div>
+</body>
+
+</html>
