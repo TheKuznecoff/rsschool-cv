@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=1024">
+   <meta name="viewport" content="width=1120">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
                <header class="header">
                   <div class="user">
                      <div class="user__img">
-                        <img src="img/photo1.jpeg" alt="photo1">
+                        <img src="img/7.jpg" alt="7">
                      </div>
                      <!--User-->
                      <div class="user-content">
@@ -89,14 +89,20 @@
                   <div class="section-code">
                      <h2 class="section-code__title">CODE EXAMPLE</h2>
                      <div class="section-code__body">
-                        <p class="section__text section__text--code">Lorem, ipsum dolor sit amet consectetur adipisicing
-                           elit. Error, illo corrupti
-                           consequatur nemo voluptatem voluptates adipisci ab explicabo. Aperiam quas numquam est
-                           doloremque
-                           molestiae earum, magni ullam repellendus sapiente! Explicabo!
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit, sint pariatur,
-                           eaque rerum quo error adipisci vitae dolore expedita molestiae. Libero expedita odio, sint
-                           quam autem quod neque dolores.</p>
+                        <pre>
+                           <code class="section__text section__text--code">
+                              for (let anchor of anchors) {
+                                 anchor.addEventListener("click", function (event) {
+                                    event.preventDefault();
+                                    const blockID = anchor.getAttribute('href')
+                                    document.querySelector('' + blockID).scrollIntoView({
+                                       behavior: "smooth",
+                                       block: "start"
+                                    })
+                                 })
+                              }
+                           </code>
+                        </pre>
                      </div>
                   </div>
                </section>
