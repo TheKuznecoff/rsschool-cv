@@ -1,1 +1,1 @@
-https://TheKuznecoff.github.io/rsschool-cv/cv
+https://TheKuznecoff.github.io/rsschool-cv/gi
