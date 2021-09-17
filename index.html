@@ -9,6 +9,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="js/styles/base16/isotope.min.css">
    <link rel="shortcut icon" href="img/favicon.ico">
    <title>Dmitriy Kuznetsov CV</title>
 </head>
@@ -91,16 +92,18 @@
                      <div class="section-code__body">
                         <pre>
                            <code class="section__text section__text--code">
-                              for (let anchor of anchors) {
-                                 anchor.addEventListener("click", function (event) {
-                                    event.preventDefault();
-                                    const blockID = anchor.getAttribute('href')
-                                    document.querySelector('' + blockID).scrollIntoView({
-                                       behavior: "smooth",
-                                       block: "start"
-                                    })
-                                 })
-                              }
+      const anchors = document.querySelectorAll('a[href*="#"]')
+
+      for (let anchor of anchors) {
+         anchor.addEventListener("click", function (event) {
+            event.preventDefault();
+            const blockID = anchor.getAttribute('href')
+            document.querySelector('' + blockID).scrollIntoView({
+               behavior: "smooth",
+               block: "start"
+            })
+         })
+      };
                            </code>
                         </pre>
                      </div>
@@ -161,6 +164,8 @@
          </footer>
       </div>
    </div>
+   <script src="js/highlight.min.js"></script>
+   <script>hljs.highlightAll();</script>
 </body>
 
 </html>

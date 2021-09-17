@@ -295,9 +295,6 @@ body {
    top: 40px;
    left: 30%;
 }
-.section-code__body {
-   background-color: #8ec6e6;
-}
 .section-code__title {
    width: 162px;
    position: relative;
@@ -307,12 +304,6 @@ body {
    letter-spacing: 0.01em;
    color: #04b2e7;
    text-transform: uppercase;
-}
-.section__text--code {
-   position: relative;
-   left: -141px;
-   margin: 0px;
-   padding: 20px;
 }
 /*-----------------------------------------------Footer-------------------------------------*/
 .footer {
